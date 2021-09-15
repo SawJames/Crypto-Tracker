@@ -11,6 +11,7 @@
 		AD48D32D26F230D60038FAB1 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD48D32C26F230D60038FAB1 /* ContentView.swift */; };
 		AD48D32F26F230D90038FAB1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AD48D32E26F230D90038FAB1 /* Assets.xcassets */; };
 		AD48D33226F230D90038FAB1 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AD48D33126F230D90038FAB1 /* Preview Assets.xcassets */; };
+		AD48D33B26F234CD0038FAB1 /* Color.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD48D33A26F234CD0038FAB1 /* Color.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -20,6 +21,7 @@
 		AD48D32E26F230D90038FAB1 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		AD48D33126F230D90038FAB1 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		AD48D33326F230D90038FAB1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AD48D33A26F234CD0038FAB1 /* Color.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Color.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -52,6 +54,7 @@
 		AD48D32926F230D60038FAB1 /* CryptoTracker */ = {
 			isa = PBXGroup;
 			children = (
+				AD48D33926F234C00038FAB1 /* Extension */,
 				AD48D32A26F230D60038FAB1 /* CryptoTrackerApp.swift */,
 				AD48D32C26F230D60038FAB1 /* ContentView.swift */,
 				AD48D32E26F230D90038FAB1 /* Assets.xcassets */,
@@ -67,6 +70,14 @@
 				AD48D33126F230D90038FAB1 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		AD48D33926F234C00038FAB1 /* Extension */ = {
+			isa = PBXGroup;
+			children = (
+				AD48D33A26F234CD0038FAB1 /* Color.swift */,
+			);
+			path = Extension;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -140,6 +151,7 @@
 			files = (
 				AD48D32D26F230D60038FAB1 /* ContentView.swift in Sources */,
 				AD48D32B26F230D60038FAB1 /* CryptoTrackerApp.swift in Sources */,
+				AD48D33B26F234CD0038FAB1 /* Color.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
