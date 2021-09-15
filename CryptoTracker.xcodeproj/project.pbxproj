@@ -15,6 +15,7 @@
 		AD48D34126F236D00038FAB1 /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD48D34026F236D00038FAB1 /* HomeView.swift */; };
 		AD48D34526F239170038FAB1 /* CircleButtonView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD48D34426F239170038FAB1 /* CircleButtonView.swift */; };
 		AD48D34726F23F170038FAB1 /* CircleButtonAnimateView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD48D34626F23F170038FAB1 /* CircleButtonAnimateView.swift */; };
+		AD48D34A26F24B310038FAB1 /* CoinModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD48D34926F24B310038FAB1 /* CoinModel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -28,6 +29,7 @@
 		AD48D34026F236D00038FAB1 /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
 		AD48D34426F239170038FAB1 /* CircleButtonView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CircleButtonView.swift; sourceTree = "<group>"; };
 		AD48D34626F23F170038FAB1 /* CircleButtonAnimateView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CircleButtonAnimateView.swift; sourceTree = "<group>"; };
+		AD48D34926F24B310038FAB1 /* CoinModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoinModel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,6 +62,7 @@
 		AD48D32926F230D60038FAB1 /* CryptoTracker */ = {
 			isa = PBXGroup;
 			children = (
+				AD48D34826F24B220038FAB1 /* Model */,
 				AD48D33C26F2368F0038FAB1 /* Core */,
 				AD48D33926F234C00038FAB1 /* Extension */,
 				AD48D32A26F230D60038FAB1 /* CryptoTrackerApp.swift */,
@@ -137,6 +140,14 @@
 			path = CircleButton;
 			sourceTree = "<group>";
 		};
+		AD48D34826F24B220038FAB1 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				AD48D34926F24B310038FAB1 /* CoinModel.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -212,6 +223,7 @@
 				AD48D32B26F230D60038FAB1 /* CryptoTrackerApp.swift in Sources */,
 				AD48D34526F239170038FAB1 /* CircleButtonView.swift in Sources */,
 				AD48D33B26F234CD0038FAB1 /* Color.swift in Sources */,
+				AD48D34A26F24B310038FAB1 /* CoinModel.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
