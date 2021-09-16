@@ -25,6 +25,7 @@
 		AD48D35C26F321610038FAB1 /* CoinImageService.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD48D35B26F321610038FAB1 /* CoinImageService.swift */; };
 		AD48D36126F323AC0038FAB1 /* CoinImageViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD48D36026F323AC0038FAB1 /* CoinImageViewModel.swift */; };
 		AD48D36326F323C50038FAB1 /* CoinImageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD48D36226F323C50038FAB1 /* CoinImageView.swift */; };
+		AD48D36526F384140038FAB1 /* LocalFileManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD48D36426F384140038FAB1 /* LocalFileManager.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -48,6 +49,7 @@
 		AD48D35B26F321610038FAB1 /* CoinImageService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoinImageService.swift; sourceTree = "<group>"; };
 		AD48D36026F323AC0038FAB1 /* CoinImageViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoinImageViewModel.swift; sourceTree = "<group>"; };
 		AD48D36226F323C50038FAB1 /* CoinImageView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoinImageView.swift; sourceTree = "<group>"; };
+		AD48D36426F384140038FAB1 /* LocalFileManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocalFileManager.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -186,6 +188,7 @@
 			isa = PBXGroup;
 			children = (
 				AD48D35926F316D50038FAB1 /* NetworkingManager.swift */,
+				AD48D36426F384140038FAB1 /* LocalFileManager.swift */,
 			);
 			path = Utilities;
 			sourceTree = "<group>";
@@ -272,6 +275,7 @@
 				AD48D34C26F2DEEE0038FAB1 /* CoinRowView.swift in Sources */,
 				AD48D34726F23F170038FAB1 /* CircleButtonAnimateView.swift in Sources */,
 				AD48D35426F2E87F0038FAB1 /* homeViewModel.swift in Sources */,
+				AD48D36526F384140038FAB1 /* LocalFileManager.swift in Sources */,
 				AD48D32D26F230D60038FAB1 /* ContentView.swift in Sources */,
 				AD48D36326F323C50038FAB1 /* CoinImageView.swift in Sources */,
 				AD48D34126F236D00038FAB1 /* HomeView.swift in Sources */,
