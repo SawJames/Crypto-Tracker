@@ -21,6 +21,7 @@
 		AD48D35026F2DF840038FAB1 /* Double.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD48D34F26F2DF840038FAB1 /* Double.swift */; };
 		AD48D35426F2E87F0038FAB1 /* homeViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD48D35326F2E87F0038FAB1 /* homeViewModel.swift */; };
 		AD48D35726F2FE890038FAB1 /* CoinDataService.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD48D35626F2FE890038FAB1 /* CoinDataService.swift */; };
+		AD48D35A26F316D50038FAB1 /* NetworkingManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD48D35926F316D50038FAB1 /* NetworkingManager.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -40,6 +41,7 @@
 		AD48D34F26F2DF840038FAB1 /* Double.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Double.swift; sourceTree = "<group>"; };
 		AD48D35326F2E87F0038FAB1 /* homeViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = homeViewModel.swift; sourceTree = "<group>"; };
 		AD48D35626F2FE890038FAB1 /* CoinDataService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoinDataService.swift; sourceTree = "<group>"; };
+		AD48D35926F316D50038FAB1 /* NetworkingManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkingManager.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -72,11 +74,12 @@
 		AD48D32926F230D60038FAB1 /* CryptoTracker */ = {
 			isa = PBXGroup;
 			children = (
+				AD48D32A26F230D60038FAB1 /* CryptoTrackerApp.swift */,
+				AD48D35826F316C40038FAB1 /* Utilities */,
 				AD48D35526F2FD200038FAB1 /* Service */,
 				AD48D33926F234C00038FAB1 /* Extension */,
 				AD48D34826F24B220038FAB1 /* Model */,
 				AD48D33C26F2368F0038FAB1 /* Core */,
-				AD48D32A26F230D60038FAB1 /* CryptoTrackerApp.swift */,
 				AD48D32C26F230D60038FAB1 /* ContentView.swift */,
 				AD48D32E26F230D90038FAB1 /* Assets.xcassets */,
 				AD48D33326F230D90038FAB1 /* Info.plist */,
@@ -171,6 +174,14 @@
 			path = Service;
 			sourceTree = "<group>";
 		};
+		AD48D35826F316C40038FAB1 /* Utilities */ = {
+			isa = PBXGroup;
+			children = (
+				AD48D35926F316D50038FAB1 /* NetworkingManager.swift */,
+			);
+			path = Utilities;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -248,6 +259,7 @@
 				AD48D34126F236D00038FAB1 /* HomeView.swift in Sources */,
 				AD48D32B26F230D60038FAB1 /* CryptoTrackerApp.swift in Sources */,
 				AD48D34526F239170038FAB1 /* CircleButtonView.swift in Sources */,
+				AD48D35A26F316D50038FAB1 /* NetworkingManager.swift in Sources */,
 				AD48D33B26F234CD0038FAB1 /* Color.swift in Sources */,
 				AD48D34E26F2DF270038FAB1 /* PreviewPorovider.swift in Sources */,
 				AD48D35026F2DF840038FAB1 /* Double.swift in Sources */,
