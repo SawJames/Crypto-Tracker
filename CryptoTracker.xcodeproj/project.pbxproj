@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		AD17D83F26F621E8006B5A98 /* HapticManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD17D83E26F621E8006B5A98 /* HapticManager.swift */; };
 		AD48D32B26F230D60038FAB1 /* CryptoTrackerApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD48D32A26F230D60038FAB1 /* CryptoTrackerApp.swift */; };
 		AD48D32D26F230D60038FAB1 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD48D32C26F230D60038FAB1 /* ContentView.swift */; };
 		AD48D32F26F230D90038FAB1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AD48D32E26F230D90038FAB1 /* Assets.xcassets */; };
@@ -41,6 +42,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		AD17D83E26F621E8006B5A98 /* HapticManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HapticManager.swift; sourceTree = "<group>"; };
 		AD48D32726F230D60038FAB1 /* CryptoTracker.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CryptoTracker.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		AD48D32A26F230D60038FAB1 /* CryptoTrackerApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CryptoTrackerApp.swift; sourceTree = "<group>"; };
 		AD48D32C26F230D60038FAB1 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -224,6 +226,7 @@
 			children = (
 				AD48D35926F316D50038FAB1 /* NetworkingManager.swift */,
 				AD48D36426F384140038FAB1 /* LocalFileManager.swift */,
+				AD17D83E26F621E8006B5A98 /* HapticManager.swift */,
 			);
 			path = Utilities;
 			sourceTree = "<group>";
@@ -323,6 +326,7 @@
 				AD48D36926F395D40038FAB1 /* UIApplication.swift in Sources */,
 				AD48D32B26F230D60038FAB1 /* CryptoTrackerApp.swift in Sources */,
 				AD48D34526F239170038FAB1 /* CircleButtonView.swift in Sources */,
+				AD17D83F26F621E8006B5A98 /* HapticManager.swift in Sources */,
 				AD48D36F26F42ABF0038FAB1 /* HomeStatView.swift in Sources */,
 				AD48D36726F393DB0038FAB1 /* SearchBarView.swift in Sources */,
 				AD48D37926F4DDE30038FAB1 /* CoinLogoView.swift in Sources */,
