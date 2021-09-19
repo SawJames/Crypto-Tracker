@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		AD17D83F26F621E8006B5A98 /* HapticManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD17D83E26F621E8006B5A98 /* HapticManager.swift */; };
+		AD17D84426F705E6006B5A98 /* DetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD17D84326F705E6006B5A98 /* DetailView.swift */; };
 		AD48D32B26F230D60038FAB1 /* CryptoTrackerApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD48D32A26F230D60038FAB1 /* CryptoTrackerApp.swift */; };
 		AD48D32D26F230D60038FAB1 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD48D32C26F230D60038FAB1 /* ContentView.swift */; };
 		AD48D32F26F230D90038FAB1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AD48D32E26F230D90038FAB1 /* Assets.xcassets */; };
@@ -43,6 +44,7 @@
 
 /* Begin PBXFileReference section */
 		AD17D83E26F621E8006B5A98 /* HapticManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HapticManager.swift; sourceTree = "<group>"; };
+		AD17D84326F705E6006B5A98 /* DetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailView.swift; sourceTree = "<group>"; };
 		AD48D32726F230D60038FAB1 /* CryptoTracker.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CryptoTracker.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		AD48D32A26F230D60038FAB1 /* CryptoTrackerApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CryptoTrackerApp.swift; sourceTree = "<group>"; };
 		AD48D32C26F230D60038FAB1 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -89,6 +91,30 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		AD17D84026F705A8006B5A98 /* Detail */ = {
+			isa = PBXGroup;
+			children = (
+				AD17D84126F705C4006B5A98 /* View */,
+				AD17D84226F705CC006B5A98 /* ViewModel */,
+			);
+			path = Detail;
+			sourceTree = "<group>";
+		};
+		AD17D84126F705C4006B5A98 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				AD17D84326F705E6006B5A98 /* DetailView.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		AD17D84226F705CC006B5A98 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
 		AD48D31E26F230D60038FAB1 = {
 			isa = PBXGroup;
 			children = (
@@ -144,6 +170,7 @@
 		AD48D33C26F2368F0038FAB1 /* Core */ = {
 			isa = PBXGroup;
 			children = (
+				AD17D84026F705A8006B5A98 /* Detail */,
 				AD48D34226F238E30038FAB1 /* Components */,
 				AD48D33D26F236960038FAB1 /* Home */,
 			);
@@ -326,6 +353,7 @@
 				AD48D36926F395D40038FAB1 /* UIApplication.swift in Sources */,
 				AD48D32B26F230D60038FAB1 /* CryptoTrackerApp.swift in Sources */,
 				AD48D34526F239170038FAB1 /* CircleButtonView.swift in Sources */,
+				AD17D84426F705E6006B5A98 /* DetailView.swift in Sources */,
 				AD17D83F26F621E8006B5A98 /* HapticManager.swift in Sources */,
 				AD48D36F26F42ABF0038FAB1 /* HomeStatView.swift in Sources */,
 				AD48D36726F393DB0038FAB1 /* SearchBarView.swift in Sources */,
