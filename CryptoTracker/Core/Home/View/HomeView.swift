@@ -16,6 +16,7 @@ struct HomeView: View {
     
     @State private var selectedCoin : CoinModel? = nil
     @State private var showDetailView : Bool = false
+    @State private var showSettingView : Bool = false
     var body: some View {
         ZStack{
             Color.theme.background
@@ -43,6 +44,10 @@ struct HomeView: View {
                 
                
             }
+            .sheet(isPresented: $showSettingView, content: {
+                SettingView()
+            })
+            
         }
         .background(
             NavigationLink(
@@ -74,6 +79,8 @@ extension HomeView{
                     if showPortfolio{
                         showPortfolioView.toggle()
                     }
+                   showSettingView.toggle()
+                   
                 }
                 .background(
                     CircleButtonAnimateView(animate: $showPortfolio)
@@ -97,6 +104,8 @@ extension HomeView{
         .padding(.horizontal)
         
     }
+    
+   
     
     private var allCoinsList : some View{
         List{
