@@ -16,6 +16,8 @@
 		AD17D84E26F820DD006B5A98 /* Date.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD17D84D26F820DD006B5A98 /* Date.swift */; };
 		AD17D85026F8C87F006B5A98 /* String.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD17D84F26F8C87F006B5A98 /* String.swift */; };
 		AD17D85526F96515006B5A98 /* SettingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD17D85426F96515006B5A98 /* SettingView.swift */; };
+		AD17D85926F9861E006B5A98 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AD17D85826F9861E006B5A98 /* LaunchScreen.storyboard */; };
+		AD17D85B26F9885C006B5A98 /* LaunchView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD17D85A26F9885C006B5A98 /* LaunchView.swift */; };
 		AD48D32B26F230D60038FAB1 /* CryptoTrackerApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD48D32A26F230D60038FAB1 /* CryptoTrackerApp.swift */; };
 		AD48D32D26F230D60038FAB1 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD48D32C26F230D60038FAB1 /* ContentView.swift */; };
 		AD48D32F26F230D90038FAB1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AD48D32E26F230D90038FAB1 /* Assets.xcassets */; };
@@ -59,6 +61,8 @@
 		AD17D84D26F820DD006B5A98 /* Date.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Date.swift; sourceTree = "<group>"; };
 		AD17D84F26F8C87F006B5A98 /* String.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = String.swift; sourceTree = "<group>"; };
 		AD17D85426F96515006B5A98 /* SettingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingView.swift; sourceTree = "<group>"; };
+		AD17D85826F9861E006B5A98 /* LaunchScreen.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = LaunchScreen.storyboard; sourceTree = "<group>"; };
+		AD17D85A26F9885C006B5A98 /* LaunchView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LaunchView.swift; sourceTree = "<group>"; };
 		AD48D32726F230D60038FAB1 /* CryptoTracker.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CryptoTracker.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		AD48D32A26F230D60038FAB1 /* CryptoTrackerApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CryptoTrackerApp.swift; sourceTree = "<group>"; };
 		AD48D32C26F230D60038FAB1 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -155,6 +159,23 @@
 			path = ViewModel;
 			sourceTree = "<group>";
 		};
+		AD17D85626F985DF006B5A98 /* LaunchScreen */ = {
+			isa = PBXGroup;
+			children = (
+				AD17D85726F985EE006B5A98 /* View */,
+			);
+			path = LaunchScreen;
+			sourceTree = "<group>";
+		};
+		AD17D85726F985EE006B5A98 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				AD17D85826F9861E006B5A98 /* LaunchScreen.storyboard */,
+				AD17D85A26F9885C006B5A98 /* LaunchView.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
 		AD48D31E26F230D60038FAB1 = {
 			isa = PBXGroup;
 			children = (
@@ -212,10 +233,11 @@
 		AD48D33C26F2368F0038FAB1 /* Core */ = {
 			isa = PBXGroup;
 			children = (
+				AD17D85626F985DF006B5A98 /* LaunchScreen */,
+				AD48D34226F238E30038FAB1 /* Components */,
 				AD48D33D26F236960038FAB1 /* Home */,
 				AD17D84026F705A8006B5A98 /* Detail */,
 				AD17D85126F964C7006B5A98 /* Setting */,
-				AD48D34226F238E30038FAB1 /* Components */,
 			);
 			path = Core;
 			sourceTree = "<group>";
@@ -370,6 +392,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				AD17D85926F9861E006B5A98 /* LaunchScreen.storyboard in Resources */,
 				AD48D33226F230D90038FAB1 /* Preview Assets.xcassets in Resources */,
 				AD48D32F26F230D90038FAB1 /* Assets.xcassets in Resources */,
 			);
@@ -398,6 +421,7 @@
 				AD48D36326F323C50038FAB1 /* CoinImageView.swift in Sources */,
 				AD48D34126F236D00038FAB1 /* HomeView.swift in Sources */,
 				AD48D36926F395D40038FAB1 /* UIApplication.swift in Sources */,
+				AD17D85B26F9885C006B5A98 /* LaunchView.swift in Sources */,
 				AD48D32B26F230D60038FAB1 /* CryptoTrackerApp.swift in Sources */,
 				AD48D34526F239170038FAB1 /* CircleButtonView.swift in Sources */,
 				AD17D84426F705E6006B5A98 /* DetailView.swift in Sources */,
