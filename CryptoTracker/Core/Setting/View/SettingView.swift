@@ -17,11 +17,19 @@ struct SettingView: View {
     
     var body: some View {
         NavigationView{
-            List{
-                swiftulThinkingSection
-                coinGeckoSection
-                applicationSection
+            ZStack{
+                Color.theme.background.ignoresSafeArea()
+                List{
+                    swiftulThinkingSection
+                        .listRowBackground(Color.theme.background)
+                    coinGeckoSection
+                        .listRowBackground(Color.theme.background)
+                    applicationSection
+                        .listRowBackground(Color.theme.background)
+                }
             }
+            
+           
             .font(.headline)
             .accentColor(.blue)
             .listStyle(GroupedListStyle())
@@ -32,6 +40,11 @@ struct SettingView: View {
                 }
             })
         }
+        .background(
+            Color.theme.background.ignoresSafeArea()
+        )
+        
+        
         
         
     }

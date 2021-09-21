@@ -44,6 +44,7 @@ struct HomeView: View {
                 
                
             }
+            
             .sheet(isPresented: $showSettingView, content: {
                 SettingView()
             })
@@ -76,11 +77,13 @@ extension HomeView{
             CircleButtonView(iconName: showPortfolio ? "plus" : "info")
                 .animation(.none)
                 .onTapGesture {
-                    if showPortfolio{
-                        showPortfolioView.toggle()
-                    }
-                   showSettingView.toggle()
-                   
+//                    if showPortfolio{
+//                        showPortfolioView.toggle()
+//                    }else {
+//                        showSettingView.toggle()
+//                    }
+                    showPortfolio ? showPortfolioView.toggle() : showSettingView.toggle()
+                  
                 }
                 .background(
                     CircleButtonAnimateView(animate: $showPortfolio)
@@ -115,6 +118,7 @@ extension HomeView{
                     .onTapGesture {
                         segue(coin: coin)
                     }
+                    .listRowBackground(Color.theme.background)
             }
            
         }
@@ -135,6 +139,7 @@ extension HomeView{
                     .onTapGesture {
                         segue(coin: coin)
                     }
+                    .listRowBackground(Color.theme.background)
             }
         }
         .listStyle(PlainListStyle())
